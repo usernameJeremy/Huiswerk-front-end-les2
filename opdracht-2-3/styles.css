@@ -1,0 +1,26 @@
+
+
+body {
+    background-color: #F2F3D9
+}
+.titel {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1200px;
+
+}
+.article-1{
+    display: flex;
+    margin: 50px;
+    text-align: center;
+
+}
+p{
+    background-color: #C16E70;
+    margin: 25px;
+    max-width: 280px;
+    height: 350px;
+
+}
+

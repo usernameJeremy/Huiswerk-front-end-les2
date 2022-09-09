@@ -1,0 +1,51 @@
+/* ======================================================
+   OEFENEN MET FLEXBOX
+========================================================= */
+
+/* Schrijf hier  jouw CSS! */
+.one,p,h3 {
+
+    max-width: 1200px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.three{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.three-list{
+    margin: 0px;
+    padding-inline-start: 10px;
+    padding-right: 25px;
+    display: flex;
+    list-style-type: none;
+    max-width: 50px;
+}
+.three-cursus{
+    display: flex;
+    padding-inline: 25px;
+}
+.login-form-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.five{
+    display: flex;
+    flex-wrap: wrap;
+}
+.five-art{
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
